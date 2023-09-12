@@ -7,7 +7,8 @@
   color: #3C354F;
 }
 .color-secondary{
-  color: #6a31f0;
+  /* color: #6a31f0; */
+  color: #662d91;
 }
 .color-title-primary{
   color: #FF42A5;
@@ -23,12 +24,8 @@
   font-size: 2.8rem;
 }
 
-.youtube-logo{
-  color: red;
-}
-.tiktok-logo{
-  color: black;
-}
+
+
 
 
 
@@ -71,13 +68,18 @@
   text-decoration: none;
   padding: 10px;
 }
-
+.youtube-logo{
+  color: red;
+}
+.tiktok-logo{
+  color: black;
+}
 
 /* play like section  */
 
 .play-like{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between ;
   align-items: center;
   
 }
@@ -120,6 +122,44 @@
   background-color: #4EC5F7;
 }
 
+/* we r gamer section */
+.gamer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.small-heading{
+  font-size: 2rem;
+}
+
+/* Play Instantly section */
+.play-instantly{
+  display: flex;
+  width: 80%;
+  margin: 30 auto;
+  align-items: center;  
+}
+.play-img-1{
+  width: 500px;
+  height: 565px;
+  border-radius: 8px;
+}
+.play-img-2{
+  width: 300px;
+  height: 345px;
+  border-radius: 5px;
+}
+
+
+/* Play Games section */
+
+.play-games{
+  display: flex;
+  width: 80%;
+  margin: 30 auto;
+  align-items: center;
+}
+
 
 /* Action buttons section */
 
@@ -151,4 +191,44 @@
   color: #FF42A5;
   border: 2px solid #FF42A5;
   border-radius: 8px;
+}
+
+
+/* Footer section */
+
+.footer{
+  height: 500px;  
+  background-color: #0B0223;
+}
+.footer-top > img{
+  padding: 20px;
+}
+.footer-color-primary{
+  color: #FFF;
+}
+.footer-color-secondary{
+  color: #FFF;
+  opacity: 60%;
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 36px;
+}
+.footer-logo > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.footer-logo > a > i {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 10px;
+}
+.footer-logo > p{
+  font-size: 1.3rem;
+  padding: 10px;
 }
