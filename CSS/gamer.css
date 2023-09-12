@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.color-primary{
+  color: #3C354F;
+}
+.color-secondary{
+  color: #6a31f0;
+}
+.color-title-primary{
+  color: #FF42A5;
+}
+.font-primary{
+  font-size: 1.2rem;
+}
+/* .color-title-secondary{
+  color: #FF42A5;
+  
+} */
+.title-size{
+  font-size: 2.8rem;
+}
+
+.youtube-logo{
+  color: red;
+}
+.tiktok-logo{
+  color: black;
+}
+
+
+
+/* heaher */
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;  
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.web-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+.web-logo > img{
+  width: 84px;
+  height: 38px;
+  padding: 10px;
+}
+.header-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.header-link > a{
+  text-decoration: none;
+  padding: 10px;
+}
+.header-logo{
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.10);
+  padding: 10px;
+}
+.header-logo > a{
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+/* play like section  */
+
+.play-like{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.lik-are{
+  background-image: url(../images/Group\ 14.png);
+  /* background-size: 100%; */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+.lik-are > p > i{
+  color: rgb(247, 91, 200);
+  padding: 10px;
+}
+.heading-size{
+  font-size: 5rem;
+  /* background: linear-gradient(180deg, #F948B2 10%, #8758F1 100%); */
+}
+
+.lik-are-pic > img{
+  width: 100%;
+  /* height: 80vh; */
+  padding: 25px;
+}
+.btn{
+  font-size: 1.25rem;
+  color: #fff;
+  width: 160px;
+  padding: 20px 30px;
+  border: 0;
+  border-radius: 36px;
+
+}
+.btn-primary{
+  background-color: #FF42A5;
+}
+.btn-secondary{
+  background-color: #4EC5F7;
+}
+
+
+/* Action buttons section */
+
+.action-btn{
+  /* display: grid; */
+  /* grid-template-columns: 5 1fr; */
+  /* grid-template-columns: repeat(3, 1fr); */
+}
+.action-btn{
+  display: flex;
+  /* grid-template-columns: 5 1fr; */
+  flex-wrap: wrap;
+}
+.action-btn > li{
+  text-decoration: none;
+}
+.action-hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding: 10px;
+}
+.action-hover > img{
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+.action-hover:hover{
+  color: #FF42A5;
+  border: 2px solid #FF42A5;
+  border-radius: 8px;
+}
