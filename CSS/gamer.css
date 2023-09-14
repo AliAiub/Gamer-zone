@@ -21,7 +21,7 @@ body{
   background-image: linear-gradient(to bottom,#FF42A5,#662d91);
     color: transparent;
     -webkit-background-clip: text;
-    font-size: 50px;
+    /* font-size: 50px; */
 }
 .font-primary{
   font-size: 1.2rem;
@@ -45,22 +45,30 @@ body{
 
 
 
-/* heaher */
+/* header section */
+/* .header-container{  
+  background: #FFF;
+  margin: 0 auto;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  align-items: center;
+} */
 .header{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 20px;  
   background: #FFF;
-  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  /* background: yellowgreen; */
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);  
   max-width: 1366px;
   margin: 0 auto;
 }
 .web-logo{
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   font-size: 2.5rem;
+  width: 50%;
 }
 .web-logo > img{
   width: 84px;
@@ -69,9 +77,10 @@ body{
 }
 .header-link{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-size: 1.3rem;
+  width: 50%;
 }
 .header-link > a{
   text-decoration: none;
@@ -192,17 +201,47 @@ body{
   margin: 60px auto 0;
   text-align: center;
 }
-.grid-container{
+.grid-containers{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 40px auto;
   gap: 10px;
 }
-.grid-container > img:hover{
-  color: black;
-  opacity: 70%;
+.grid-container{
+  position: relative;
+}
+.grid-container-img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .2s ease;
+  backface-visibility: hidden;
   
 }
+
+.game-pause{
+  transition: .2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.grid-container:hover .grid-container-img{
+  /* opacity: 0.3; */
+  opacity: 0.8;
+  border: solid 3px#FF42A5 ;
+  border-radius: 5%;
+}
+.grid-container:hover .game-pause{
+  opacity: 1;
+  /* opacity: 3; */
+}
+
+
 
 
 /* Play Instantly section */
@@ -251,7 +290,7 @@ body{
   /* position: absolute;
   top: 0%; */
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: -5%;
 }
 .play-img-2 img{
@@ -278,7 +317,7 @@ body{
 #swing{
   /* flex-direction: row-reverse; */
   position: absolute;
-  border: 70%;
+  /* bottom: 70%; */
   left: 75%;
 }
 
@@ -332,8 +371,9 @@ body{
 /* Footer section */
 
 .footer{
-  height: 500px;  
+  height: 80vh;  
   background-color: #0B0223;
+  align-items: center;
 }
 .footer-top > img{
   padding: 20px;
@@ -350,23 +390,26 @@ body{
   justify-content: center;
   align-items: center;
   padding-top: 36px;
+  max-width: 80%;
+  margin: 0 auto;
 }
-.footer-logo > a {
+.footer-logo a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   padding: 10px;
-  margin-right: 20px;
+  /* margin: 0 auto;
+  text-align: center; */
   
 }
-.footer-logo > a > i {
-  text-decoration: none;
-  color: #fff;
+.footer-logo > a > i {  
+  /* text-decoration: none;
+  color: #fff; */
   font-size: 3rem;
   border-radius: 50%;
   /* padding: 10px; */
 }
-.footer-logo > p{
-  font-size: 1.3rem;
-  padding: 10px;
+.footer-logo p{
+  font-size: 1.5rem;
+  padding: 10px auto 0;
 }

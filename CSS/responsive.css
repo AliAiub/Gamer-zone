@@ -1,0 +1,134 @@
+@media screen and (max-width:576px){
+
+
+  .title-size{
+    font-size: 2.2rem;
+  }
+  .font-primary{
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+
+  .header{
+    /* display: flex; */
+    flex-direction: column;
+    /* align-items: center;     */
+    /* margin: 0 auto; */
+  }
+  .web-logo{    
+    width: 100%;
+    justify-content: center;
+  }
+  .header-link{
+    flex-direction: column;
+    width: 100%;
+  }
+/* play like section  */
+  .play-like{  
+    flex-direction: column-reverse;
+    height: 140vh;
+  }
+  .lik-are, .lik-are-pic{    
+    width: 85%;
+  }
+
+/* we r gamer section */
+  .gamer{
+    flex-direction: column;
+    height: 160vh;
+  }
+  .gamer-hero{
+    width: 100%;
+  }
+  .gamer-text{
+    width: 80%;
+  }
+  .more-containt{
+    text-align: center;
+  }
+  .small-heading{
+    font-size: 1.5rem;
+  }
+
+/* Online Games section */
+  .grid-containers{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 40px auto;
+    gap: 20px;
+    width: 85%;
+  }
+/* Play Instantly section */
+.play-sections{
+  flex-direction: column;   
+}
+.play-container, .play-img-container, .oppositer{
+  width: 85%;
+  text-align: center; 
+}
+.play-img-2{
+  top: 50%;
+  left: -2%;
+}
+#swing{  
+  left: 60%;
+}
+
+/* Action buttons section */
+.action-btn{
+  grid-template-columns: repeat(3, 1fr);
+  width: 85%;
+  margin: 60 auto;
+}
+.action-hover{ 
+  font-size: 1rem;
+}
+.action-hover > img{
+  width: 40px;
+  height: 40px;
+}
+.action-hover:hover{
+  color: #FF42A5;
+  border: 2px solid #FF42A5;
+  border-radius: 36px;
+  /* padding: 10px; */  
+}
+
+/* Footer section */
+.footer{
+  height: 120vh;  
+  /* background-color: #0B0223; */
+}
+.footer-logo{
+  flex-wrap: wrap;
+  max-width: 80%;
+  flex-direction: row;
+}
+.footer-logo a {
+  font-size: 1.2rem;
+  padding: 5 16px;
+  /* margin-right: 25px;
+  margin: 0 auto;
+  text-align: center; */
+  
+}
+.footer-logo > a > i {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  
+  /* margin-right: 50px; */
+  /* text-decoration: none;
+  color: #fff; */
+  font-size: 2rem;
+  /* border-radius: 50%; */
+  /* padding: 10px; */
+}
+.footer-logo p{
+  font-size: .8rem;
+  padding: 5px;
+}
+
+  
+
+}
