@@ -1,3 +1,4 @@
+/* Common class starts here */
 *{
   margin: 0;
   padding: 0;
@@ -11,7 +12,6 @@ body{
   color: #3C354F;
 }
 .color-secondary{
-  /* color: #6a31f0; */
   color: #662d91;
 }
 .color-title-primary{
@@ -21,51 +21,29 @@ body{
   background-image: linear-gradient(to bottom,#FF42A5,#662d91);
     color: transparent;
     -webkit-background-clip: text;
-    /* font-size: 50px; */
 }
 .font-primary{
   font-size: 1.2rem;
 }
-/* .color-title-secondary{
-  color: #FF42A5;
-  .transparent-color{
-    background-image: linear-gradient(to bottom,#9376e0,#e893cf);
-    color: transparent;
-    -webkit-background-clip: text;
-    font-size: 50px;
-}
-  
-} */
 .title-size{
   font-size: 2.8rem;
 }
 
+/* Common class ends here */
 
 
-
-
-
-/* header section */
-/* .header-container{  
-  background: #FFF;
-  margin: 0 auto;
-  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  align-items: center;
-} */
+/* Header class starts here */
 .header{
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   padding: 20px;  
   background: #FFF;
-  /* background: yellowgreen; */
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);  
   max-width: 1366px;
   margin: 0 auto;
 }
 .web-logo{
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   font-size: 2.5rem;
   width: 50%;
@@ -101,9 +79,10 @@ body{
 .tiktok-logo{
   color: black;
 }
+/* Header class ends here */
 
-/* play like section  */
 
+/* play like  section class starts here */
 .play-like{  
   display: flex;
   justify-content: center ;
@@ -114,32 +93,17 @@ body{
 }
 .lik-are{
   background-image: url(../images/Group\ 14.png);
-  /* background-size: 100%; */
   background-repeat: no-repeat;
   width: 50%;
   height: 100%;
   padding: 4% 0 0 10%;
-  /* border: solid 2px green; */
-  /* height: 70vh; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* align-content: center;
-  text-align: center;
-  /* vertical-align: middle; */
 }
-/* .container{
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
-} */
 .lik-are > p > i{
   color: rgb(247, 91, 200);
   padding: 10px;
 }
 .heading-size{
   font-size: 5rem;
-  /* background: linear-gradient(180deg, #F948B2 10%, #8758F1 100%); */
 }
 .lik-are-pic{
   width: 50%;
@@ -148,9 +112,6 @@ body{
 .lik-are-pic > img{
   width: 100%;
   height: 100%;
-  /* border: solid 2px gold; */
-
-  /* padding: 25px; */
 }
 .btn{
   font-size: 1.25rem;
@@ -160,7 +121,6 @@ body{
   margin-top: 20px;
   border: 0;
   border-radius: 36px;
-
 }
 .btn-primary{
   background-color: #FF42A5;
@@ -169,7 +129,10 @@ body{
   background-color: #4EC5F7;
 }
 
-/* we r gamer section */
+/* play like  section class ends here */
+
+
+/* we r gamer section class starts here */
 .gamer{
   display: flex;
   justify-content: space-between;
@@ -180,13 +143,13 @@ body{
   height: 70vh;
 }
 .gamer-hero{
-  width: 60%;
+  width: 55%;
 }
 .gamer-hero > img{
   width: 100%;
 }
 .gamer-text{
-  width: 40%;
+  width: 35%;
 }
 .more-containt{
   text-align: end;
@@ -195,7 +158,9 @@ body{
   font-size: 2rem;
 }
 
-/* Online Games section */
+/* we r gamer section class starts here */
+
+/* Online Games section class starts here */
 .online-container{
   max-width: 1366px;
   margin: 60px auto 0;
@@ -216,10 +181,8 @@ body{
   width: 100%;
   height: auto;
   transition: .2s ease;
-  backface-visibility: hidden;
-  
+  backface-visibility: hidden;  
 }
-
 .game-pause{
   transition: .2s ease;
   opacity: 0;
@@ -231,64 +194,45 @@ body{
   text-align: center;
 }
 .grid-container:hover .grid-container-img{
-  /* opacity: 0.3; */
   opacity: 0.8;
   border: solid 3px#FF42A5 ;
   border-radius: 5%;
 }
 .grid-container:hover .game-pause{
   opacity: 1;
-  /* opacity: 3; */
 }
 
+/* Online Games section class ends here */
 
 
-
-/* Play Instantly section */
+/* Play Instantly section class starts here */
 .play-sections{
   display: flex;
   max-width: 1366px;
   margin: 80px auto;
   margin-bottom: 100px;
-  /* width: 70vh; */
-  /* text-align: center; */
-  /* width: 80%; */
-  /* margin: 30 auto; */
   align-items: center;  
 }
 .play-container{
   width: 50%;
   padding: 25px;
   margin: 25px;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 .play-img-container{
   width: 50%;
   position: relative;
-  /* border: solid 3px yellowgreen; */
 }
 .play-img-1{
   display: flex;
   justify-content: end;
-  /* height: 565px; */
   border-radius: 8px;
   position: relative;
-  /* border: solid 3px gray; */
 }
 .play-img-1 img{
   width: 90%;
   height: 85vh;
-  /* height: 565px;
-  border-radius: 8px;  */
-  /* position: relative; */
 }
 .play-img-2{
-  /* width: 100px;
-  height: 145px;
-  border-radius: 5px; */
-  /* position: absolute;
-  top: 0%; */
   position: absolute;
   top: 75%;
   left: -5%;
@@ -297,14 +241,11 @@ body{
   width: 200px;
   height: 245px;
   border-radius: 5px;
-  
-  /* position: relative;
-  top: -110%;
-  left: 5%; */
 }
+/* Play Instantly section class ends here */
 
 
-/* Play Games section */
+/* Play Games section class starts here*/
 
 .opposite{
   flex-direction: row-reverse;
@@ -315,32 +256,22 @@ body{
   position: relative;
 }
 #swing{
-  /* flex-direction: row-reverse; */
   position: absolute;
-  /* bottom: 70%; */
   left: 75%;
 }
+/* Play Games section class ends here*/
 
 
-/* Action buttons section */
+/* Play Games section class starts here*/
 
 .action-btn{
   display: grid;
-  /* grid-template-columns: 5 1fr; */
   grid-template-columns: repeat(5, 1fr);
   gap: 5px;
   max-width: 1366px;
   margin: 80px auto;
   justify-content: center;
 }
-/* .action-btn{
-  display: flex;
-  grid-template-columns: 5 1fr;
-  flex-wrap: wrap;
-  display: flex;
-  max-width: 1366px;
-  margin: 60px auto 0;
-} */
 .action-btn > li{
   text-decoration: none;
   text-align: center;
@@ -350,25 +281,22 @@ body{
   justify-content: center;
   align-items: center;  
   font-size: 1.3rem;
-  /* margin: 10px 5px; */
   padding: 10px;
 }
 .action-hover > img{
   width: 50px;
   height: 50px;
-  /* padding: 10px auto; */
   margin-right: 10px;
 }
 .action-hover:hover{
   color: #FF42A5;
   border: 3px solid #FF42A5;
-  border-radius: 36px;
-  /* padding: 10px; */
-  
+  border-radius: 36px;  
 }
+/* Play Games section class ends here*/
 
 
-/* Footer section */
+/* Footer section class starts here*/
 
 .footer{
   height: 80vh;  
@@ -398,18 +326,13 @@ body{
   color: #fff;
   font-size: 1.6rem;
   padding: 10px;
-  /* margin: 0 auto;
-  text-align: center; */
-  
 }
-.footer-logo > a > i {  
-  /* text-decoration: none;
-  color: #fff; */
+.footer-logo > a > i {
   font-size: 3rem;
   border-radius: 50%;
-  /* padding: 10px; */
 }
 .footer-logo p{
   font-size: 1.5rem;
   padding: 10px auto 0;
 }
+/* Footer section class ends here*/
