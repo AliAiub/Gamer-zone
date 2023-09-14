@@ -35,7 +35,7 @@
 /* we r gamer class section */
   .gamer{
     flex-direction: column;
-    height: 160vh;
+    height: 100vh;
   }
   .gamer-hero{
     width: 100%;
@@ -95,9 +95,6 @@
 }
 
 /* Footer class section */
-.footer{
-  height: 120vh; 
-}
 .footer-logo{
   flex-wrap: wrap;
   max-width: 80%;
@@ -120,6 +117,7 @@
 
 
 /* tablet responsive starts here */
+
 @media screen and (min-width:577px) and (max-width:991px){
 
 /* common class section */
